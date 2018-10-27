@@ -37,7 +37,7 @@ def new_books():
    if id in books:
          return {"Id already there"}
    books.append({'id':id,'value':value})
-         return {'status':'ok'}
+         return {'status':'true'}
 
 
 app.run(debug = True)
